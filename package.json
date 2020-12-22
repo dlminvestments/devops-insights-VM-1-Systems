@@ -7,7 +7,7 @@
     "isomorphic-unfetch": "^3.0.0",
     "react": "^16.14.0",
     "react-bootstrap": "^1.4.0",
-    "react-dom": "^16.9.0",
+    "react-dom": "^16.13.0",
     "react-scripts": "^3.3.0",
     "serve": "^11.2.0"
   },
