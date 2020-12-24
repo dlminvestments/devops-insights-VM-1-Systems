@@ -5,7 +5,7 @@
   "dependencies": {
     "bootstrap": "4.5.3",
     "isomorphic-unfetch": "3.1.0",
-    "react": "16.14.0",
+    "react": "17.0.1",
     "react-bootstrap": "1.4.0",
     "serve": "11.3.2"
   },
