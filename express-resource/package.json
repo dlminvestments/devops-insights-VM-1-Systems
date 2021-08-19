@@ -19,7 +19,7 @@
     "connect": "2.x",
     "express": "3.x",
     "ejs": "2.5.x",
-    "qs": "0.1.0",
+    "qs": "6.0.4",
     "mocha": "*",
     "should": "*",
     "supertest": "0.1.2"
