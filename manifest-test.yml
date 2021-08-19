@@ -1,9 +1,0 @@
-applications:
-- disk_quota: 1024M
-  name: demodoitest
-  command: npx serve -s build
-  path: .
-  instances: 1
-  memory: 64M
-  env:
-    DUMMY_ENV: testing
