@@ -53,7 +53,7 @@ function Resource(name, actions, app) {
   this.routes = {};
   actions = actions || {};
   this.base = actions.base || '/';
-  if ('/' != this.base[this.base.length - 1]) this.base += '/';
+  if (this.base[this.base.length - 1] != '/') this.base += '/';
   this.format = actions.format;
   this.id = actions.id || this.defaultId;
   this.param = ':' + this.id;
@@ -86,13 +86,13 @@ Resource.prototype.load = function(fn){
       if (err) return next(err);
       // TODO: ideally we should next() passed the
       // route handler
-      if (null == obj) return res.send(404);
+      if (obj == null) return res.send(404);
       req[id] = obj;
       next();
     };
     
     // Maintain backward compatibility
-    if (2 == fn.length) {
+    if (fn.length == 2) {
       fn(req.params[id], callback);
     } else {
       fn(req, req.params[id], callback);
@@ -130,9 +130,9 @@ Resource.prototype.map = function(method, path, fn){
     , orig = path;
 
   if (method instanceof Resource) return this.add(method);
-  if ('function' == typeof path) fn = path, path = '';
-  if ('object' == typeof path) fn = path, path = '';
-  if ('/' == path[0]) path = path.substr(1);
+  if (typeof path == 'function') 
+  if (typeof path == 'object') 
+  if (path[0] == '/') path = path.substr(1);
   else path = path ? this.param + '/' + path : this.param;
   method = method.toLowerCase();
 
@@ -154,7 +154,7 @@ Resource.prototype.map = function(method, path, fn){
   this.app[method](route, function(req, res, next){
     req.format = req.params.format || req.format || self.format;
     if (req.format) res.type(req.format);
-    if ('object' == typeof fn) {
+    if (typeof fn == 'object') {
       if (fn[req.format]) {
         fn[req.format](req, res, next);
       } else {
@@ -249,8 +249,8 @@ Resource.prototype.mapDefaultAction = function(key, fn){
 
 methods.concat(['del', 'all']).forEach(function(method){
   Resource.prototype[method] = function(path, fn){
-    if ('function' == typeof path
-      || 'object' == typeof path) fn = path, path = '';
+    if (typeof path == 'function'
+      || typeof path == 'object') 
     this.map(method, path, fn);
     return this;
   }
@@ -267,7 +267,7 @@ methods.concat(['del', 'all']).forEach(function(method){
 
 app.resource = function(name, actions, opts){
   var options = actions || {};
-  if ('object' == typeof name) actions = name, name = null;
+  if (typeof name == 'object') 
   if (options.id) actions.id = options.id;
   this.resources = this.resources || {};
   if (!actions) return this.resources[name] || new Resource(name, null, this);

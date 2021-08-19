@@ -4,7 +4,7 @@ module.exports = {
     '@disabled': false,  // This will prevent the test module from running.
   
     after: (browser, done) => {
-        console.log('After called')
+        
       browser
         .closeWindow()
         .end(done);

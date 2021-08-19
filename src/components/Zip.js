@@ -36,7 +36,7 @@ function Zip(props) {
                                 validate(event);
                             }
                         }}
-                    ></input>   
+                     />   
                 </div>
             </div>
             <div className="pl-3 row">
