@@ -18,11 +18,16 @@
   "devDependencies": {
     "connect": "2.30.2",
     "express": "3.21.2",
+renovate/ejs-3.x
     "ejs": "3.1.6",
     "qs": "6.0.4",
+=======
+    "ejs": "2.7.4",
+    "qs": "6.10.1",
+ Main-npm-hosted-git-info-vulnerability
     "mocha": "*",
     "should": "*",
-    "supertest": "0.1.2"
+    "supertest": "0.15.0"
   },
   "keywords": [
     "express",
