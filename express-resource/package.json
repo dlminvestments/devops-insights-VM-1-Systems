@@ -22,7 +22,7 @@
     "qs": "6.10.1",
     "mocha": "*",
     "should": "*",
-    "supertest": "0.15.0"
+    "supertest": "6.1.6"
   },
   "keywords": [
     "express",
