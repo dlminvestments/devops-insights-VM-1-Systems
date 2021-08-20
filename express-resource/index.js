@@ -86,7 +86,7 @@ Resource.prototype.load = function(fn){
       if (err) return next(err);
       // TODO: ideally we should next() passed the
       // route handler
-      if (obj == null) return res.send(404);
+      if (obj === null) return res.send(404);
       req[id] = obj;
       next();
     };
