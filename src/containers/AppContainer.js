@@ -22,14 +22,14 @@ function AppContainer(props) {
     return (
         <div>
             <div className="row mt-4">
-                <div className="col-sm-4"></div>
+                <div className="col-sm-4" />
                 <Zip onZipChange={handleZipChange} clearResponse={clearResponse}/>
-                <div className="col-sm-4"></div>
+                <div className="col-sm-4" />
             </div>
             <div className="row mt-4">
-                <div className="col-sm-2"></div>
+                <div className="col-sm-2" />
                 <ZipResponse responseData={responseData} clearResponse={clearResponse}/>
-                <div className="col-sm-2"></div>
+                <div className="col-sm-2" />
             </div>    
         </div>
     );
