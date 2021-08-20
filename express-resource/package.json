@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "connect": "2.30.2",
-    "express": "3.21.2",
+    "express": "4.17.1",
     "ejs": "2.7.4",
     "qs": "6.0.4",
     "mocha": "*",
