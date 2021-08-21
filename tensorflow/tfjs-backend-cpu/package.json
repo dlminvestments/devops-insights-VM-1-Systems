@@ -67,8 +67,8 @@
     "test-ci": "yarn test"
   },
   "dependencies": {
-    "@types/seedrandom": "2.4.27",
-    "seedrandom": "2.4.3"
+    "@types/seedrandom": "2.4.30",
+    "seedrandom": "2.4.4"
   },
   "peerDependencies": {
     "@tensorflow/tfjs-core": "link:../dist/bin/tfjs-core/tfjs-core_pkg"
