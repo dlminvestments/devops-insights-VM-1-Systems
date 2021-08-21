@@ -56,7 +56,7 @@
     "@types/node": "10.17.55",
     "@types/progress": "2.0.3",
     "@types/rimraf": "2.0.4",
-    "@types/yargs": "13.0.11",
+    "@types/yargs": "13.0.12",
     "clang-format": "1.2.4",
     "jasmine": "3.1.0",
     "node-fetch": "2.6.1",
