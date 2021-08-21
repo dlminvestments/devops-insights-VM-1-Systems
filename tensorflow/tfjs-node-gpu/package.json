@@ -53,7 +53,7 @@
   "devDependencies": {
     "@tensorflow/tfjs-core": "link:../link-package/node_modules/@tensorflow/tfjs-core",
     "@types/jasmine": "2.8.17",
-    "@types/node": "10.17.55",
+    "@types/node": "10.17.60",
     "@types/progress": "2.0.3",
     "@types/rimraf": "2.0.4",
     "@types/yargs": "13.0.11",
