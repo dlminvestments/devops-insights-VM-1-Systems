@@ -72,7 +72,7 @@
     "@tensorflow/tfjs": "link:../tfjs",
     "adm-zip": "^0.5.2",
     "google-protobuf": "^3.9.2",
-    "https-proxy-agent": "^2.2.1",
+    "https-proxy-agent": "^5.0.0",
     "progress": "^2.0.0",
     "rimraf": "^2.6.2",
     "tar": "^4.4.15"
