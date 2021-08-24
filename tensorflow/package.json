@@ -68,7 +68,7 @@
     "yargs": "16.2.0"
   },
   "dependencies": {
-    "@mapbox/node-pre-gyp": "1.0.4",
+    "@mapbox/node-pre-gyp": "1.0.5",
     "@tensorflow/tfjs": "link:../tfjs",
     "adm-zip": "^0.5.2",
     "google-protobuf": "^3.9.2",
