@@ -21,29 +21,29 @@
   "devDependencies": {
     "@bazel/bazelisk": "1.10.1",
     "@bazel/ibazel": "0.15.10",
-    "@rollup/plugin-commonjs": "11.1.0",
-    "@rollup/plugin-node-resolve": "7.1.3",
-    "@rollup/plugin-typescript": "3.1.1",
+    "@rollup/plugin-commonjs": "20.0.0",
+    "@rollup/plugin-node-resolve": "13.0.4",
+    "@rollup/plugin-typescript": "8.2.5",
     "@tensorflow/tfjs-core": "link:../tfjs-core",
-    "@types/jasmine": "3.0.0",
-    "clang-format": "1.2.4",
-    "jasmine": "3.8.0",
-    "jasmine-core": "3.8.0",
-    "karma": "6.3.1",
+    "@types/jasmine": "3.8.2",
+    "clang-format": "1.5.0",
+    "jasmine": "3.9.0",
+    "jasmine-core": "3.9.0",
+    "karma": "6.3.4",
     "karma-browserstack-launcher": "1.4.0",
     "karma-chrome-launcher": "2.2.0",
-    "karma-jasmine": "1.1.2",
+    "karma-jasmine": "4.0.1",
     "karma-typescript": "5.5.2",
     "npm-run-all": "4.1.5",
     "nyc": "15.1.0",
-    "rimraf": "2.6.3",
-    "rollup": "2.3.5",
-    "rollup-plugin-terser": "5.3.1",
-    "rollup-plugin-visualizer": "3.3.2",
-    "ts-node": "8.8.2",
+    "rimraf": "3.0.2",
+    "rollup": "2.56.3",
+    "rollup-plugin-terser": "7.0.2",
+    "rollup-plugin-visualizer": "5.5.2",
+    "ts-node": "8.10.2",
     "tslint": "6.1.3",
     "tslint-no-circular-imports": "0.7.0",
-    "typescript": "3.5.3",
+    "typescript": "3.9.10",
     "yalc": "1.0.0-pre.53"
   },
   "scripts": {
@@ -67,8 +67,8 @@
     "test-ci": "yarn test"
   },
   "dependencies": {
-    "@types/seedrandom": "2.4.30",
-    "seedrandom": "2.4.4"
+    "@types/seedrandom": "3.0.1",
+    "seedrandom": "3.0.5"
   },
   "peerDependencies": {
     "@tensorflow/tfjs-core": "link:../dist/bin/tfjs-core/tfjs-core_pkg"
