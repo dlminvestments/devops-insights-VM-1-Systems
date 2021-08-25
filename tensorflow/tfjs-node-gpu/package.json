@@ -68,8 +68,12 @@ Main-npm-hosted-git-info-vulnerability
     "@types/node": "14.17.11",
     "@types/progress": "2.0.5",
     "@types/rimraf": "3.0.2",
+ renovate/yargs-17.x
+    "@types/yargs": "17.0.2",
+=======
  Main-npm-hosted-git-info-vulnerability
     "@types/yargs": "13.0.12",
+ Main-npm-hosted-git-info-vulnerability
     "clang-format": "1.5.0",
     "jasmine": "3.9.0",
     "node-fetch": "2.6.1",
@@ -81,7 +85,7 @@ Main-npm-hosted-git-info-vulnerability
     "tslint-no-circular-imports": "0.7.0",
     "typescript": "3.9.10",
     "yalc": "1.0.0-pre.53",
-    "yargs": "16.2.0"
+    "yargs": "17.1.1"
   },
   "dependencies": {
     "@mapbox/node-pre-gyp": "1.0.5",
