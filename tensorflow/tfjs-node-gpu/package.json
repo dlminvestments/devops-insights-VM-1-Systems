@@ -52,11 +52,28 @@
   },
   "devDependencies": {
     "@tensorflow/tfjs-core": "link:../link-package/node_modules/@tensorflow/tfjs-core",
+ renovate/node-10.x
+renovate/node-10.x
+    "@types/jasmine": "2.8.17",
+    "@types/node": "10.17.60",
+    "@types/progress": "2.0.3",
+=======
+    "@types/jasmine": "2.8.18",
+    "@types/node": "10.17.55",
+    "@types/progress": "2.0.5",
+Main-npm-hosted-git-info-vulnerability
+    "@types/rimraf": "2.0.4",
+=======
     "@types/jasmine": "3.8.2",
     "@types/node": "14.17.11",
     "@types/progress": "2.0.5",
     "@types/rimraf": "3.0.2",
+ renovate/yargs-17.x
     "@types/yargs": "17.0.2",
+=======
+ Main-npm-hosted-git-info-vulnerability
+    "@types/yargs": "13.0.12",
+ Main-npm-hosted-git-info-vulnerability
     "clang-format": "1.5.0",
     "jasmine": "3.9.0",
     "node-fetch": "2.6.1",
