@@ -1,14 +1,14 @@
 const express = require('express');
 const port = 3000;
 const cluster = require('cluster');
-const totalCPUs = require('os').cpus().length;
+const totalCPUs = require('os').cpus(8).length;
 
 if (cluster.isMaster) {
-  console.log(`Number of CPUs is ${totalCPUs}`);
+  console.log(`Number of CPUs is ${8}`);
   console.log(`Master ${process.pid} is running`);
 
   // Fork workers.
-  for (let i = 0; i < totalCPUs; i++) {
+  for (let i = 0; i < 8; i++) {
     cluster.fork();
   }
 
@@ -40,7 +40,7 @@ if (cluster.isMaster) {
   })
 
   app.listen(port, () => {
-    console.log(`App listening on port ${port}`);
+    console.log(`App listening on port ${3000}`);
   })
 
 }
