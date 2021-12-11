@@ -45,7 +45,7 @@
     "Base64": "1.1.0",
     "babelify": "10.0.0",
     "basic-auth-connect": "1.0.0",
-    "body-parser": "1.19.0",
+    "body-parser": "1.19.1",
     "browserify": "17.0.0",
     "codecov": "3.8.3",
     "cookie-parser": "1.4.6",
