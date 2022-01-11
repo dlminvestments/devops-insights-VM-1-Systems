@@ -27,8 +27,13 @@
     "@tensorflow/tfjs-core": "link:../tfjs-core",
     "@types/jasmine": "3.10.3",
     "clang-format": "1.6.0",
+renovate/major-jasmine-monorepo
+    "jasmine": "4.0.1",
+    "jasmine-core": "4.0.0",
+=======
     "jasmine": "3.99.0",
     "jasmine-core": "3.99.0",
+Main-npm-hosted-git-info-vulnerability
     "karma": "6.3.9",
     "karma-browserstack-launcher": "1.6.0",
     "karma-chrome-launcher": "3.1.0",
