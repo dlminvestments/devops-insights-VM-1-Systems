@@ -10,3 +10,4 @@
     "allowJs": true,
     "outDir": "./dist"
   }
+}
