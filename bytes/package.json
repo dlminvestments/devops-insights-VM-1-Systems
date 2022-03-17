@@ -19,8 +19,13 @@
   ],
   "repository": "visionmedia/bytes.js",
   "devDependencies": {
+renovate/eslint-8.x
+    "eslint": "8.11.0",
+    "mocha": "9.2.1",
+=======
     "eslint": "8.10.0",
     "mocha": "9.2.2",
+Main-npm-hosted-git-info-vulnerability
     "nyc": "15.1.0"
   },
   "files": [
