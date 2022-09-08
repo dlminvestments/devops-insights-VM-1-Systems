@@ -73,7 +73,7 @@
  
     "clang-format": "1.8.0",
     "jasmine": "4.4.0",
-    "node-fetch": "2.6.7",
+    "node-fetch": "3.2.10",
     "nyc": "15.1.0",
     "tmp": "0.2.1",
     "ts-node": "10.9.1",
