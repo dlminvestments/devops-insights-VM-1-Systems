@@ -16,7 +16,7 @@
     "debug": "*"
   },
   "devDependencies": {
-    "connect": "2.30.2",
+    "connect": "3.7.0",
 
     "express": "3.21.2",
 
