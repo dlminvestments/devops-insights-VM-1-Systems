@@ -31,7 +31,7 @@
  
     "mocha": "10.1.0",
     "should": "13.2.3",
-    "supertest": "6.3.0"
+    "supertest": "6.3.1"
   },
   "keywords": [
     "express",
