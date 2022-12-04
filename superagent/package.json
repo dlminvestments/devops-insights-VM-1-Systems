@@ -62,7 +62,7 @@
     "lint-staged": "12.1.2",
     "marked": "4.0.8",
 
-    "lint-staged": "13.0.4",
+    "lint-staged": "13.1.0",
     "marked": "4.2.3",
 
     "mocha": "10.1.0",
