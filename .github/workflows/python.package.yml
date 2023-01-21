@@ -1,0 +1,47 @@
+# This code is licensed from CircleCI to the user under the MIT license.
+# See here for details: https://circleci.com/developer/orbs/licensing
+version: 2.1
+description: Reusable Python job that creates a package
+
+orbs:
+  python: circleci/python@0.2.1
+
+jobs:
+  python-package-job:
+    executor:
+        name: python/default
+        tag: "3.7.8"
+    steps:
+      - checkout
+      - run:
+          command: git clone https://rogerbush8:${GITHUB_BUILD_BOOTSTRAP_DEPLOY_TOKEN}@github.com/EveryoneSocial/es-invoke-tasks
+          name: Bootstrap - get es-invoke-tasks from Github
+      - run:
+          command: cp es-invoke-tasks/es_invoke_tasks/tasks.py tasks.py   # Overwrite tasks.py
+          name: Bootstrap - copy and overwrite tasks.py
+      - run:
+          command: rm -rf es-invoke-tasks
+          name: Bootstrap - rm es-invoke-tasks
+      - run:
+          command: pip install invoke pytest  # N.B. everything needed to run manage should be installed here!
+          name: Bootstrap - install invoke/tasks dependencies
+      - python/load-cache
+      - run:
+          command: inv setup
+          name: Install development dependencies
+      - python/save-cache
+      - run:
+          command: inv package.metafile
+          name: Add metafile to package source
+      - run:
+          command: inv test
+          name: Test
+      - run:
+          command: inv package.build
+          name: Build package
+      - run:
+          command: inv package.install
+          name: Install package
+      - run:
+          command: inv package.push
+          name: Push package to Gemfury repo

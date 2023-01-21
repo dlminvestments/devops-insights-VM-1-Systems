@@ -1,0 +1,13 @@
+name: Python Dependency Installation
+  uses: py-actions/py-dependency-install@v4.0.0
+
+steps:
+  # this Action should follow steps to set up Python build environment
+  - name: Install Python dependencies
+    uses: py-actions/py-dependency-install@v4
+    with:
+      path: "path/to/requirements.txt"
+    with:
+      update-pip: "false"
+      update-setuptools: "false"
+      update-wheel: "false"

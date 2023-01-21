@@ -1,0 +1,52 @@
+{
+  "name": "supertest",
+  "version": "6.1.5",
+  "description": "SuperAgent driven library for testing HTTP servers",
+  "main": "index.js",
+  "author": "TJ Holowaychuk",
+  "contributors": [
+    "Dimitri DO BAIRRO <dimitri.dobairro@dimsolution.com>"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/visionmedia/supertest.git"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "keywords": [
+    "superagent",
+    "request",
+    "tdd",
+    "bdd",
+    "http",
+    "test",
+    "testing"
+  ],
+  "scripts": {
+    "lint": "eslint lib/**/*.js test/**/*.js index.js",
+    "lint:fix": "eslint --fix lib/**/*.js test/**/*.js index.js",
+    "pretest": "npm run lint",
+    "test": "nyc --reporter=html --reporter=text mocha --exit --require should --reporter spec --check-leaks",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "dependencies": {
+    "methods": "^1.1.2",
+    "superagent": "^8.0.0"
+  },
+  "devDependencies": {
+    "body-parser": "1.20.1",
+    "cookie-parser": "1.4.6",
+    "coveralls": "3.1.1",
+    "eslint": "8.32.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.27.5",
+    "express": "4.18.2",
+    "mocha": "10.2.0",
+    "nock": "13.3.0",
+    "nyc": "15.1.0",
+    "should": "13.2.3"
+  }
+}
+ 
