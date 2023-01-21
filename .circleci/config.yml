@@ -1,7 +1,13 @@
-version: 2.1
 orbs:
-  node: circleci/node@5.1.0
+  codecov: codecov/codecov@3.2.4
+  jobs:
+  example-job:
+    docker:
+      # replace with your preferred image
+      - image: cimg/base:stable
+    steps:
+      - codecov/upload
 workflows:
-  node-tests:
+  example-workflow:
     jobs:
-      - node/test
+      - example-job
