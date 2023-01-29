@@ -51,3 +51,20 @@ build:
 
     - store_artifacts:
         path: /tmp/artifacts
+
+
+  node: circleci/node@x.y
+
+  install-node-example:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout
+      - node/install:
+          install-yarn: true
+          node-version: '16.13'
+      - run: node --version
+
+  test_my_app:
+    jobs:
+      - install-node-example
