@@ -17,6 +17,8 @@ jobs:
       - run:
           name: "Say hello"
           command: "echo Hello, World!"
+    # The resource_class feature allows configuring CPU and RAM resources for each job. Different resource classes are available for different executors. https://circleci.com/docs/2.0/configuration-reference/#resourceclass
+    resource_class: large
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
@@ -25,15 +27,12 @@ workflows:
     jobs:
       - say-hello
 
-
-
 orbs:
   node: circleci/node@5.1.0
   workflows:
     example-workflow:
       jobs:
         - node/test
-        
 
 build:
   working_directory: /tmp
@@ -51,7 +50,6 @@ build:
 
     - store_artifacts:
         path: /tmp/artifacts
-
 
   node: circleci/node@x.y
 
