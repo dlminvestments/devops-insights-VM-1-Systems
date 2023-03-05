@@ -70,7 +70,7 @@
     "nyc": "15.1.0",
     "remark-cli": "11.0.0",
     "remark-preset-github": "4.0.4",
-    "rimraf": "4.2.0",
+    "rimraf": "4.3.0",
     "should": "13.2.3",
     "should-http": "0.1.1",
     "tinyify": "4.0.0",
