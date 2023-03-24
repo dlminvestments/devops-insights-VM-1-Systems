@@ -58,7 +58,7 @@
     "should": "13.2.3",
     "shx": "0.3.4",
     "sinon": "15.0.2",
-    "trim-newlines": "4.1.1",
+    "trim-newlines": "5.0.0",
     "xo": "0.53.1"
   },
   "engines": {
