@@ -1,8 +1,8 @@
 {
-    "app_id": "ibm-vm_1-systems-monrf",
+    "app_id": "metal-lb-uvqha",
     "config_version": 20210101,
-    "name": "IBM-VM_1-Systems",
+    "name": "Metal-LB",
     "location": "US-VA",
-    "deployment_model": "GLOBAL",
-    "environment": "testing"
+    "provider_region": "gcp-us-central1",
+    "deployment_model": "LOCAL"
 }
