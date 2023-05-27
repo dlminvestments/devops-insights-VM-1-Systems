@@ -3,5 +3,10 @@
         "name": "test",
         "private": false,
         "disable_arg_logs": true
+    },
+    {
+        "name": "test1",
+        "private": false,
+        "disable_arg_logs": true
     }
 ]
