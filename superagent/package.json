@@ -63,7 +63,7 @@
     "marked": "4.0.8",
 
     "lint-staged": "14.0.1",
-    "marked": "9.0.0",
+    "marked": "9.0.3",
 
     "mocha": "10.2.0",
     "multer": "1.4.4",
