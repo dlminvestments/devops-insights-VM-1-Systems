@@ -104,7 +104,7 @@
     "@babel/core": "7.23.0",
     "@babel/preset-env": "7.22.20",
     "@popperjs/core": "2.11.8",
-    "@rollup/plugin-babel": "6.0.3",
+    "@rollup/plugin-babel": "6.0.4",
     "@rollup/plugin-commonjs": "25.0.4",
 
     "@rollup/plugin-node-resolve": "13.1.2",
