@@ -69,7 +69,7 @@
     "@types/yargs": "17.0.2",
 
  
-    "@types/yargs": "17.0.26",
+    "@types/yargs": "17.0.28",
  
     "clang-format": "1.8.0",
     "jasmine": "5.1.0",
