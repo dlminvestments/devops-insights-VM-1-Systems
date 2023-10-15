@@ -62,7 +62,7 @@
     "@types/rimraf": "2.0.4",
 
     "@types/jasmine": "5.1.0",
-    "@types/node": "18.18.4",
+    "@types/node": "18.18.5",
     "@types/progress": "2.0.5",
     "@types/rimraf": "3.0.2",
 
