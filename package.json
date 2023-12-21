@@ -39,7 +39,7 @@
     "chromedriver": "92.0.2",
     "mocha": "9.0.1",
 
-    "chromedriver": "120.0.0",
+    "chromedriver": "120.0.1",
     "mocha": "10.2.0",
 
     "rewire": "7.0.0",
