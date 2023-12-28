@@ -34,7 +34,7 @@
     ]
   },
   "devDependencies": {
-    "chai": "4.3.10",
+    "chai": "5.0.0",
 
     "chromedriver": "92.0.2",
     "mocha": "9.0.1",
