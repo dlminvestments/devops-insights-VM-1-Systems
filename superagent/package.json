@@ -57,7 +57,7 @@
     "express": "4.18.2",
     "express-session": "1.17.3",
     "fixpack": "4.0.0",
-    "husky": "8.0.3",
+    "husky": "9.0.7",
 
     "lint-staged": "12.1.2",
     "marked": "4.0.8",
