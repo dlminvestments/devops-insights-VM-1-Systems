@@ -69,7 +69,7 @@
     "@types/yargs": "17.0.2",
 
  
-    "@types/yargs": "17.0.32",
+    "@types/yargs": "17.0.35",
  
     "clang-format": "1.8.0",
     "jasmine": "5.1.0",
@@ -81,7 +81,7 @@
     "tslint-no-circular-imports": "0.7.0",
     "typescript": "5.5.3",
     "yalc": "1.0.0-pre.53",
-    "yargs": "17.7.2"
+    "yargs": "17.7.3"
   },
   "dependencies": {
     "@mapbox/node-pre-gyp": "1.0.11",
